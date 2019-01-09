@@ -11,7 +11,7 @@ sr.reveal('h2', {
 	delay: 500
 });
 
-sr.reveal('#text', {
+sr.reveal('#intro', {
 	origin: 'left',
 	distance: '150px',
 	duration: 2000,
@@ -24,6 +24,22 @@ sr.reveal('h3', {
 	origin: 'left',
 	distance: '150px',
 	duration: 2000,
+	scale: 0.2,
+	reset: true,
+	delay: 500
+});
+sr.reveal('.underline', {
+	origin: 'left',
+	distance: '950px',
+	duration: 2200,
+	scale: 0.2,
+	reset: true,
+	delay: 500
+});
+sr.reveal('.underline2', {
+	origin: 'right',
+	distance: '950px',
+	duration: 2200,
 	scale: 0.2,
 	reset: true,
 	delay: 500

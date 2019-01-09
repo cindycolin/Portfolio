@@ -15,29 +15,32 @@
           
 </head>
 
-<body>
+	<body>
 <!--grid-->
-	<div class="wrapper">
+		<div class="wrapper">
 <!--1er rang	-->
 	
-		<div class="header" id="haut"><a href="infosContactResume.php" class="logo"></a>
-		</div>
+			<div class="header" id="haut"><a href="infosContactResume.php" class="logo"></a>
+			</div>
 		
-		<div class="hamburger"><a href="#section5"><img src="./assets/cursorPied.png" alt="flêche"/></a>
-		</div>
+			<div class="hamburger"><a href="#section5"><img src="./assets/cursorPied.png" alt="flêche"/></a>
+			</div>
 		
 <!--2ème rang gauche(Se0)	-->		
-		<div class="menu" id="intro">
+			<div class="menu" id="intro">
+       
+<!--        <div id="text"></div>-->
         
-        <div id="text"></div>
-        <p>cindycolin@outlook.be</p>
+        	<a href="mailto:cindycolin@outlook.be">cindycolin@outlook.be</a>
 		
  	 <!--essai parallax -->
+<!--
 			<div id="container">
 			  <img class="name" src="./assets/oeilTRAITmiFerme.svg" />
 			  <img class="name2" src="./assets/hippopotame.png" />
 			  <div class="slide one"></div>
 			</div>
+-->
 		</div>		
 
 
@@ -58,13 +61,15 @@
 		
 		
 <!--3ème rang gauche(S1)	-->	
-		<div id="section1" class="menu"><h3>FORMATIONS</h3>
+		<div id="section1" class="menu"> 	<h3>FORMATIONS</h3>
+			<div class="underline"></div>
+		</div>
             
-			</div>
 
 			
 <!--3ème rang droite(S1)	-->	
-		<div id="section1" class="content"><nav>
+		<div id="section1" class="content">
+			<nav>
 				<ul>
 					<li>Avr 2018 > Mai 2019 WebMaster @<a href="http://www.interface3.be/"> Interface3 Bruxelles</a></li>
 					<li>Sep 2001 > Jul 2003
@@ -73,21 +78,19 @@
   					CESS Arts Graphiques @<a href="www.stluc-bruxelles-sec.be/"> Institut St Luc Bruxelles</a>
   				    </li>
 				</ul>
-			</nav><a href="#haut"><img src="./assets/f.png" alt="flêche"/></a>
+			</nav>
+<!--			<a href="#haut"><img  width="40%"src="./assets/f.png" alt="flêche"/></a>-->
 		</div>
+            <div class="skills">skills</div>
+            <div class="skills">skills</div>
+            <div class="skills">skills</div>
 		
-        
-            <div class="skills">skills</div>
-            <div class="skills">skills</div>
-            <div class="skills">skills</div>
-			
-     
-	     <div id="section2" class="menu">	  
+      <div id="section2" class="menu">	  
 <!--			  sans nav pour essai de deux colonnes-->
 <!--			<nav>-->
             <div id="design">
 				<ul>
-					<li>DESIGN</li>
+					<h4>DESIGN</h4>
 					<li>Ux Design</li>
 					<li>Illustrator</li>
 					<li>PhotoShop</li>
@@ -103,7 +106,7 @@
 				
 			<div id="design">
 			    <ul>
-					<li>FRONT-END</li>
+					<h4>FRONT-END</h4>
 					<li>HTML5 </li>
 					<li>CSS3</li>
 					<li>SASS</li>   			
@@ -121,15 +124,19 @@
 	</div>
 		  
 		<div  class="content"><h2>COMPÉTENCES</h2>
-	  	
+	  	<div class="underline2"></div>
+
 <!--	  	<section class="underline"/>	-->
 		  	
 		  			
 		
-		<a href="#haut"><img src="./assets/f.png" alt="flêche"/></a>
+<!--		<a href="#haut"><img  width="30%" src="./assets/f.png" alt="flêche"/></a>-->
 		</div>
 		
-		<div id="section3" class="menu"><h3>EXPÉRIENCES</h3></div>
+		<div id="section3" class="menu"><h3>EXPÉRIENCES</h3>
+       	<div class="underline"></div>
+
+        </div>
          
 		<div id="section3" class="content">   <nav>
 				<ul>
@@ -149,7 +156,8 @@
 					<li><a href="">Vendeuse art créatifs  [1998-2000] @<span> La Fourmi </span> : ateliers pour enfants; conseils et accompagnement</a>
 					</li>
 				</ul>
-			</nav><a href="#haut"><img src="./assets/f.png" alt="flêche"/></a>
+			</nav>
+<!--			<a href="#haut"><img  width="30%"src="./assets/f.png" alt="flêche"/></a>-->
 		</div>			
 					
 		
@@ -157,20 +165,22 @@
 		
 		<div id="section4"class="menu">
             <nav>
-				<ul><li>LANGUES</li>
+				<ul>
+				<h4>LANGUES</h4>
 					<li>Français  »  Langue maternelle</li>
 					<li>Néerlandais  »  Bonnes connaissances</li>
 					<li>Anglais  »  Bonnes connaissances</li>
-					<li>INTÉRÊTS</li>
-					<li>Trapèze</li>
-					<li>« Choeurs</li>
-					<li>«  Jazz </li>
-					<li>« Street Culture</li>
+				<h4>INTÉRÊTS</h4>
+					<li>Vocals</li>
+					<li>Jazz</li>
+					<li>Street Culture</li>
 				</ul>
 			</nav></div>
 		<div id="section4" class="content">
-		    <h2>LANGUES &amp; INTÉRÊTS</h2>	
-		      <a href="#haut"><img class="fleche" src="./assets/f.png" alt="flêche"/></a>
+		    <h2>LANGUES &amp; INTÉRÊTS</h2>
+	      	<div class="underline2"></div>
+	
+<!--		      <a href="#haut"><img  width="30%"class="fleche" src="./assets/f.png" alt="flêche"/></a>-->
 		</div>
 			
         <div id="section5" class="footer">
