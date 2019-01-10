@@ -34,13 +34,11 @@
         	<a href="mailto:cindycolin@outlook.be">cindycolin@outlook.be</a>
 		
  	 <!--essai parallax -->
-<!--
 			<div id="container">
 			  <img class="name" src="./assets/oeilTRAITmiFerme.svg" />
 			  <img class="name2" src="./assets/hippopotame.png" />
 			  <div class="slide one"></div>
 			</div>
--->
 		</div>		
 
 
@@ -54,6 +52,7 @@
 					<li><a href="#section2"><img src="" alt="">COMPÉTENCES</a></li>
 					<li><a href="#section3"><img src="" alt="">EXPÉRIENCES</a></li>
 					<li><a href="#section4"><img src="" alt="">LANGUES &amp; INTÉRÊTS</a></li>
+					<li><a href="#section5"><img src="" alt="">PORTFOLIO</a></li>
 					<li><a href="#section5"><img src="" alt="">CONTACT</a></li>
 				</ul>
 			</nav>
@@ -178,7 +177,8 @@
 			</nav></div>
 		<div id="section4" class="content">
 		    <h2>LANGUES &amp; INTÉRÊTS</h2>
-	      	<div class="underline2"></div>
+	      	<div class="underline2Bis"></div>
+	      	<div class="underline3"></div>
 	
 <!--		      <a href="#haut"><img  width="30%"class="fleche" src="./assets/f.png" alt="flêche"/></a>-->
 		</div>

@@ -169,13 +169,14 @@ body{
 
 #intro{
 	display: block;
+    position: relative;
 	margin-left: 27vh;
-	margin-top: 18vh;
+	margin-top: 19vh;
 	background-image: url(../assets/front_end_developper_junior.svg);
 	background-repeat: no-repeat;
 	width: 80%;
 /*    border: 1px solid white;*/
-    height: 100%;
+    height: 110%;
 /*	resize: 120%;*/
     
 }
@@ -235,7 +236,7 @@ h2{
 }
 .underline2{
 	position: absolute;
-	width: 610px;
+	width: 650px;
 	height: 40px;
 /*	background-color: #fac7c1;*/
 /*	background-color: #fcee37;*/
@@ -243,7 +244,33 @@ h2{
 /*	background-color: #9ec231;*/
 /*	background-color: #f79520;*/
 	margin-top: 63px;
-	margin-right: 70px;
+/*	margin-right: 40px;*/
+	z-index: -5;
+}
+.underline2Bis{
+	position: absolute;
+	width: 610px;
+	height: 40px;
+/*	background-color: #fac7c1;*/
+/*	background-color: #fcee37;*/
+	background-color: #e32526;
+/*	background-color: #9ec231;*/
+/*	background-color: #f79520;*/
+	margin-top: -23px;
+	margin-right: 130px;
+	z-index: -5;
+}
+.underline3{
+	position: absolute;
+	width: 610px;
+	height: 40px;
+/*	background-color: #fac7c1;*/
+/*	background-color: #fcee37;*/
+	background-color: #e32526;
+/*	background-color: #9ec231;*/
+/*	background-color: #f79520;*/
+	margin-top: 163px;
+	margin-right: 130px;
 	z-index: -5;
 }
 	
