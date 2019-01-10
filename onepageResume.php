@@ -80,9 +80,9 @@
 			</nav>
 <!--			<a href="#haut"><img  width="40%"src="./assets/f.png" alt="flêche"/></a>-->
 		</div>
-            <div class="skills">skills</div>
-            <div class="skills">skills</div>
-            <div class="skills">skills</div>
+            <div class="skills">skillsskillsskills<br>skillsskillsskills<br>skillsskillsskills<br>skillsskillsskills</div>
+            <div class="skills">skillsskillsskills<br>skillsskillsskills<br>skillsskillsskills<br>skillsskillsskills</div>
+            <div class="skills">skillsskillsskills<br>skillsskillsskills<br>skillsskillsskills<br>skillsskillsskills</div>
 		
       <div id="section2" class="menu">	  
 <!--			  sans nav pour essai de deux colonnes-->

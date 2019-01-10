@@ -87,7 +87,7 @@ body{
     height: 100vh;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 15vh 85vh 75vh 25vh 100vh 100vh 100vh 15vh ;
+	grid-template-rows: 15vh 85vh 85vh 15vh 100vh 100vh 100vh 15vh ;
     grid-auto-rows: 20px;
 }
 /*<!--1er rang	g-->*/
@@ -169,9 +169,12 @@ body{
 
 #intro{
 	display: block;
+/*
     position: relative;
+    justify-content: center;
+*/
 	margin-left: 27vh;
-	margin-top: 19vh;
+	margin-top: 27vh;
 	background-image: url(../assets/front_end_developper_junior.svg);
 	background-repeat: no-repeat;
 	width: 80%;
@@ -332,11 +335,13 @@ text-decoration: none;
 	color: #9ec231;
 }
 .skills{
+
 	grid-column: span 4;
     color: #262626;
     font-size: 20px;
 /*	background-color:#e73082 ;*/
 	background-color:#9e3927 ;
+
     
 }
 /*
