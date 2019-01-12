@@ -71,7 +71,7 @@ sr.reveal('.skills',{
 	delay: 250
 });
 sr.reveal('#section5',{
-	origin: 'bottom',
+	origin: 'top',
 	distance: '30px',
 	duration: 2000,
 	reset: true,

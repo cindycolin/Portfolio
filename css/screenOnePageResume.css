@@ -33,10 +33,12 @@ body {
 }
 */
 /*background-image :url(../images/piste.svg); background-size : cover;	*/
-
+html{
+	box-sizing: border-box;
+}
 
 *, *:before, *:after {
-    box-sizing: border-box;
+    box-sizing: inherit;
     padding: 0;
     margin: 0;
 }
@@ -58,9 +60,11 @@ font-family: 'Fredoka One', cursive;
 /*font-size: 2em;*/
 /*color: #262626;*/
 /*color: #a26438;*/
-color: #9e3927;
+/*color: #9e3927;*/
+color: #e32526;
 background-color: #262626;
 /*background-color: #fff;*/
+/*background-color: #fac7c1;*/
 /*background-color: #1e2245;*/
 
 /*
@@ -83,12 +87,14 @@ body{
 */
 /*la mesure des rows*/
 .wrapper{
+	position: relative;
     width: 101vw;
     height: 100vh;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 15vh 85vh 85vh 15vh 100vh 100vh 100vh 15vh ;
+	grid-template-rows: 15vh 85vh 85vh 15vh 100vh 100vh 100vh 15vh 80vh 10vh 80vh 10vh 15vh ;
     grid-auto-rows: 20px;
+	
 }
 /*<!--1er rang	g-->*/
 .header{
@@ -97,10 +103,12 @@ body{
 	display: flex;
 }
 
+/*
 .header img{
 	padding-left:1%;
 	width: 10%;
 }
+*/
 
 .logo{
 	display: block;
@@ -110,6 +118,9 @@ body{
 	background: url(../assets/logo2.svg);
 	background-repeat: no-repeat;
 	opacity: 0.75;
+}
+.logo:hover{
+	opacity: 1;
 }
  
     
@@ -155,26 +166,31 @@ body{
 	width: 100%;
 }
 .name2{
-	width: 100%;
+	width: 800%;
 }
 
 .hamburger img{
-	width: 33%;
+	width: 38%;
     float: right;
+	clear: both;
     position: relative;
 	padding-top: 10%;
-    padding-right: 30px;
+    padding-right: 50px;
     opacity: 0.75;
+}
+.hamburger img:hover{
+	opacity: 1;
 }
 
 #intro{
 	display: block;
 /*
-    position: relative;
+    
     justify-content: center;
 */
+	align-self: center;
 	margin-left: 27vh;
-	margin-top: 27vh;
+	margin-top: 52vh;
 	background-image: url(../assets/front_end_developper_junior.svg);
 	background-repeat: no-repeat;
 	width: 80%;
@@ -190,14 +206,20 @@ font-family: 'Poppins', sans-serif;
 color:  #2eb5c6;
 font-size: 20px;
 writing-mode: vertical-rl;
-/*transition-property: color;*/
-/*transition-duration: 0.5s;*/
+transition-property: background-color: #e3327f;
+transition-duration: 0.5s;
 margin-left: -120px;
 margin-top: 35px;
 }
 #intro a:hover{
-	color: #e3327f;
+/*
+	width: 60px;
+	height: 10px;
+*/
+	background-color:#e3327f ;
+	transition: 0.5s;
 }
+	
 
 #section0 > nav{
 	font-size: 30px;
@@ -323,12 +345,14 @@ text-decoration: none;
 /*    color: #9d2378;*/
 /*    color:#3c3082;*/
 /*      color:#2eb5c6;*/
-    color:#9e3927;
+/*    color:#9e3927;*/
+	color: #e32526;
 /*    color: #3c3082;*/
 }
 .content li{
 	list-style-type: none;
-	color: #9e3927;
+/*	color: #9e3927;*/
+	color: #e32526;
 	
 }
 .content li :hover,.hamburger :hover,.header :hover,.menu li :hover{
@@ -340,7 +364,8 @@ text-decoration: none;
     color: #262626;
     font-size: 20px;
 /*	background-color:#e73082 ;*/
-	background-color:#9e3927 ;
+/*	background-color:#9e3927 ;*/
+	background-color:#e32526; ;
 
     
 }
@@ -371,9 +396,6 @@ text-decoration: none;
 */
 
 .footer{
-	
-/*	  grid-area: 4 / 1/ 5 / 3;*/
-    
 	display: flex;
 	grid-column: span 12;
 	background-color: #9ec231;
@@ -384,21 +406,51 @@ text-decoration: none;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	overflow: hidden;
+}
+
+.portfolio{
+	display: flex;
+	grid-column: span 12;
+/*	background-color: #9ec231;*/
+	justify-content: center;
+}
+.gallerie, .gallerie2{
+	position: relative;
+	display: flex;
+	grid-column: span 12;
+	justify-content:center;
+    align-items: center;
+	overflow: hidden;
+	margin-top: 3%;
+	margin-bottom: 40px;
+}
+	
+
+#g1, #g2, #g3{
+	width: 21%;
+	height: 100%;
+	border: 1px solid red;
+	margin: 2%;
+	
+}
+
+#g1 img, #g2 img, #g3 img{
+	width: 100%;
+	height: 100%;
+}
+.museeTitre{
+	display: flex;
+	grid-column: span 12;
+/*	background-color: #9ec231;*/
+	justify-content: center;
+	
+}
+.museeTitre p{
+	font-size: 1.5em;
 }
 
 
-/*plus la pour l'instant'*/
-/*
-nav >img {
-  resize: 50%;
-  opacity: 1;
-}
-*/
-/*
-.skills{
-    color: ; 
-}
-*/
 .footer li,.skills{
 	list-style-type: none;
 	color: #fff; 
@@ -406,11 +458,11 @@ nav >img {
 	
 
 #container {
-  position: relative;
+  position: absolute;
   
 /*    définit la taille du conteneur et des éléments dedans*/
-  height: 100vh;
-  width: 100%;
+  height: 30vh;
+  width: 30vw;
   display: flex;
   justify-content: center;
   align-items: center;

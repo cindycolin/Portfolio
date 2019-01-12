@@ -19,7 +19,6 @@
 <!--grid-->
 		<div class="wrapper">
 <!--1er rang	-->
-	
 			<div class="header" id="haut"><a href="infosContactResume.php" class="logo"></a>
 			</div>
 		
@@ -34,34 +33,37 @@
         	<a href="mailto:cindycolin@outlook.be">cindycolin@outlook.be</a>
 		
  	 <!--essai parallax -->
-			<div id="container">
-			  <img class="name" src="./assets/oeilTRAITmiFerme.svg" />
-			  <img class="name2" src="./assets/hippopotame.png" />
-			  <div class="slide one"></div>
-			</div>
 		</div>		
 
 
 <!--2ème rang droite(S0)	-->	
 
-
+	
 		<div id="section0" class="content">	
 			<nav>
 				<ul>
-					<li><a href="#section1"><img  src="" alt="">FORMATIONS</a></li>
-					<li><a href="#section2"><img src="" alt="">COMPÉTENCES</a></li>
-					<li><a href="#section3"><img src="" alt="">EXPÉRIENCES</a></li>
-					<li><a href="#section4"><img src="" alt="">LANGUES &amp; INTÉRÊTS</a></li>
-					<li><a href="#section5"><img src="" alt="">PORTFOLIO</a></li>
-					<li><a href="#section5"><img src="" alt="">CONTACT</a></li>
+					<li><a href="#section1">FORMATIONS</a></li>
+					<li><a href="#section2">COMPÉTENCES</a></li>
+					<li><a href="#section3">EXPÉRIENCES</a></li>
+					<li><a href="#section4">LANGUES &amp; INTÉRÊTS</a></li>
+					<li><a href="#section5">PORTFOLIO</a></li>
+					<li><a href="#section5">CONTACT</a></li>
 				</ul>
 			</nav>
 		</div>
 		
 		
 <!--3ème rang gauche(S1)	-->	
-		<div id="section1" class="menu"> 	<h3>FORMATIONS</h3>
+		<div id="section1" class="menu"> 	
+		
+		<h3>FORMATIONS</h3>
 			<div class="underline"></div>
+			
+		   <div id="container">
+			  <img class="name" src="./assets/oeilTRAITmiFerme.svg"/>
+			  <img class="name2" src="./assets/hippopotame.png" />
+			  <div class="slide one"></div>
+			</div>
 		</div>
             
 
@@ -162,7 +164,7 @@
 		
 			
 		
-		<div id="section4"class="menu">
+		<div id="section4" class="menu ">
             <nav>
 				<ul>
 				<h4>LANGUES</h4>
@@ -179,9 +181,41 @@
 		    <h2>LANGUES &amp; INTÉRÊTS</h2>
 	      	<div class="underline2Bis"></div>
 	      	<div class="underline3"></div>
-	
 <!--		      <a href="#haut"><img  width="30%"class="fleche" src="./assets/f.png" alt="flêche"/></a>-->
 		</div>
+		
+		<div class="portfolio">
+		<h3>PORTFOLIO</h3>
+		<div class="underline"></div>
+		</div>
+		
+		<div class="gallerie">
+			<div id="g1"><img src="./assets/museJouet1.png" alt=""></div>
+			<div id="g2"><img src="./assets/museeJouet2.png" alt=""></div>
+			<div id="g3"><img src="./assets/museeJouet3N.png" alt=""></div>
+		</div>
+		
+			
+		<div class="museeTitre">	
+			<p>Musée du Jouet /Refonte version Mobile</p>
+		</div>
+		
+<!--
+		<div class="gallerie2">
+			<div id="g1"><img src="./assets/museJouet1.png" alt=""></div>
+			<div id="g2"><img src="./assets/museeJouet2.png" alt=""></div>
+			<div id="g3"><img src="./assets/museeJouet3N.png" alt=""></div>
+		</div>
+		
+			
+		<div class="museeTitre">	
+			<p>Relax &amp; Enjoy/ Les offres Zen à Bruxelles/ Travail de groupe</p>
+		</div>
+-->
+		
+
+		
+	
 			
         <div id="section5" class="footer">
             <li>Rue du Canada 10  1190 Forest</li>
@@ -190,9 +224,9 @@
             <li>cindycolin@LinkedIn</li>           
 		</div>
 
-		
-		
+
 	</div>
+		
 	
 
 
@@ -207,6 +241,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/utils/Draggable.min.js"></script>
+<!--full page scroll-->
 
 
 <script src="./JS/parallax.js"></script>
