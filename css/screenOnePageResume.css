@@ -42,12 +42,14 @@ html {
 html.at-loaded, html.at-loaded * {
     cursor: none !important;
 }
-/*
 body{
-	cursor: url(../assets/vernis.png) 5 1, pointer;
+	cursor: url(../assets/doigt.png), pointer;
 	
 }
-*/
+
+a:link{
+	cursor: url(../assets/doigtplie.png), pointer;
+}
 
 /*la mesure des rows*/
 .wrapper{
@@ -56,7 +58,7 @@ body{
     height: 100vh;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 15vh 85vh 85vh 15vh 100vh 100vh 100vh 15vh 80vh 10vh 80vh 10vh 15vh ;
+	grid-template-rows: 15vh 85vh 85vh 15vh 100vh 100vh 100vh 15vh 80vh 10vh 15vh ;
     grid-auto-rows: 20px;
 	
 }
@@ -161,28 +163,28 @@ body{
 /*    border: 1px solid white;*/
     height: 110%;
 /*	resize: 120%;*/
+	overflow: visible;
     
 }
 
 #intro a{
 transform: rotate(180deg);
-font-family: 'Poppins', sans-serif;
-color:  #2eb5c6;
+/*font-family: 'Poppins', sans-serif;*/
+font-family: 'Nunito', sans-serif;
 font-size: 20px;
+	color:#2eb5c6;
+	opacity: 0.5;
 writing-mode: vertical-rl;
-transition-property: background-color: #e3327f;
-transition-duration: 0.5s;
-margin-left: -120px;
+transition-property: background-color;
+margin-left: -90px;
 margin-top: 35px;
 }
+
 #intro a:hover{
-/*
-	width: 60px;
-	height: 10px;
-*/
-	background-color:#e3327f ;
-	transition: 0.5s;
+	color:  #2eb5c6;
+	opacity: 1;
 }
+	
 	
 
 #section0 > nav{
@@ -365,6 +367,7 @@ text-decoration: none;
 	background-color: #9ec231;
 	justify-content: space-around;
 	align-items: center;
+	font-family: 'Nunito', sans-serif;
 }
 .menu,.content,.skills{
 	display: flex;
@@ -389,6 +392,16 @@ text-decoration: none;
 	margin-top: 3%;
 	margin-bottom: 40px;
 }
+.gallerie2{
+	position: relative;
+	display: flex;
+	grid-column: span 12;
+	justify-content:center;
+    align-items: center;
+	overflow: hidden;
+	margin-top: 3%;
+	margin-bottom: 40px;
+}
 	
 
 #g1, #g2, #g3{
@@ -396,13 +409,24 @@ text-decoration: none;
 	height: 100%;
 	border: 1px solid red;
 	margin: 2%;
-	
 }
-
+	
 #g1 img, #g2 img, #g3 img{
 	width: 100%;
 	height: 100%;
 }
+#g4, #g5{
+	width: 32%;
+	height: 80%;
+	border: 1px solid red;
+	margin: 2%;
+}
+	
+#g4 img, #g5 img{
+	width: 100%;
+	height: 100%;
+}
+
 .museeTitre{
 	display: flex;
 	grid-column: span 12;
@@ -417,7 +441,8 @@ text-decoration: none;
 
 .footer li,.skills{
 	list-style-type: none;
-	color: #fff; 
+	color: #fff;
+	
 }
 	
 
@@ -459,5 +484,10 @@ text-decoration: none;
     margin-right: 30px;
 }*/
 span{
-  color: #a26438 ;
+/*  color: #a26438 ;*/
+/*  color: #f79520 ;*/
+	color: #fff
+		;
+/*color:#3c3082;*/
+/*	color:#e73082;*/
 }

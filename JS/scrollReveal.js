@@ -30,7 +30,7 @@ sr.reveal('h3', {
 });
 
 sr.reveal('.underline',{
-	origin: 'left',
+	origin: 'right',
 	distance: '950px',
 	duration: 2200,
 	scale: 0.2,
@@ -55,7 +55,7 @@ sr.reveal('.underline3',{
 	delay: 500
 });
 sr.reveal('.underline2', {
-	origin: 'right',
+	origin: 'left',
 	distance: '950px',
 	duration: 2200,
 	scale: 0.2,
@@ -70,11 +70,15 @@ sr.reveal('.skills',{
 	reset: true,
 	delay: 250
 });
-sr.reveal('#section5',{
-	origin: 'top',
-	distance: '30px',
-	duration: 2000,
-	reset: true,
-	delay: 250
-});
-	
+
+//sr.reveal('#section5',{
+//	origin: 'top',
+//	distance: '30px',
+//	duration: 2000,
+//	reset: true,
+//	delay: 250
+//});
+
+
+
+
