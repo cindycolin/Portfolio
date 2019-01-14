@@ -16,23 +16,6 @@ red:#e32526
 kaki:#474a2f
 red foncé:#9e3927
 */
-
-
-
-/*https://css-tricks.com/snippets/css/using-font-face/*/
-/*
-@font-face {
-    font-family: 'moon_2.0regular';
-    src: url('moon2.0-regular-webfont.woff2') format('woff2'),
-         url('moon2.0-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-body {
-  font-family: 'moon_2.0regular', Fallback, sans-serif;
-}
-*/
-/*background-image :url(../images/piste.svg); background-size : cover;	*/
 html{
 	box-sizing: border-box;
 }
@@ -44,47 +27,28 @@ html{
 }
 
 html {
-	
-
-/*    font-family: 'Poppins', sans-serif;*/
-
-/*    font-family: 'Rubik', sans-serif;*/
-
-
-/*
-font-family: 'moon_2.0regular',Fallback, sans-serif;
-font-family: 'moon_2.0bold', sans-serif;
-*/
-font-family: 'Fredoka One', cursive;
-    
+	font-family: 'Fredoka One', cursive;
 /*font-size: 2em;*/
 /*color: #262626;*/
 /*color: #a26438;*/
 /*color: #9e3927;*/
-color: #e32526;
-background-color: #262626;
+	color: #e32526;
+	background-color: #262626;
 /*background-color: #fff;*/
 /*background-color: #fac7c1;*/
 /*background-color: #1e2245;*/
-
-/*
-    margin-left: 30px;
-    margin-right: 30px;
-*/
-/*background-color: #262626;*/
-/*	height: 100vh;*/
-
 }
+
 html.at-loaded, html.at-loaded * {
     cursor: none !important;
 }
-
 /*
 body{
 	cursor: url(../assets/vernis.png) 5 1, pointer;
 	
 }
 */
+
 /*la mesure des rows*/
 .wrapper{
 	position: relative;

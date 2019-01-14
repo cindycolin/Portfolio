@@ -8,6 +8,11 @@
         <link rel="stylesheet" href="./css/font-awesome.min.css">
         <link rel="stylesheet" href="./css/normalize.css">
         <link rel="stylesheet" href="./css/screenResume.css">
+        
+        
+
+
+
 </head>
 
 <body>
@@ -15,6 +20,8 @@
 		<div class="header"><a href="infosContactResume.php">CC</a></div>
 		<div class="hamburger"><a href="indexResume.php">|||</a></div>
 		<div class="menu">CONTACT</div>
+		
+		
 		
 		<div class="content">
 			<ul>
@@ -26,28 +33,17 @@
 		</div>
 			
 		
-<!--
-			<nav>
-				<ul><li>LANGUES</li>
-					<li>Français  »  Langue maternelle</li>
-					<li>Néerlandais  »  Bonnes connaissances</li>
-					<li>Anglais  »  Bonnes connaissances</li>
-					<li>INTÉRÊTS</li>
-					<li>Trapèze</li>
-					<li>« Choeurs</li>
-					<li>«  Jazz </li>
-					<li>« Urban Culture</li>
-				</ul>
-			</nav>
 -->
 		<div class="footer">Cindy Colin - 2019</div>
 		</div>
 		
 		
 	
-
-
-
+    
+       
+	
+	
+	
 </body>
 </html>
 
