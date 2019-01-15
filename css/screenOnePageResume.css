@@ -18,6 +18,7 @@ red foncé:#9e3927
 */
 html{
 	box-sizing: border-box;
+    
 }
 
 *, *:before, *:after {
@@ -34,6 +35,7 @@ html {
 /*color: #9e3927;*/
 	color: #e32526;
 	background-color: #262626;
+    
 /*background-color: #fff;*/
 /*background-color: #fac7c1;*/
 /*background-color: #1e2245;*/
@@ -155,15 +157,17 @@ a:link{
     justify-content: center;
 */
 	align-self: center;
-	margin-left: 14vh;
+/*	margin-left: 14vh;*/
 /*	margin-top: 52vh;*/
 	background-image: url(../assets/front_end_developper_junior.svg);
 	background-repeat: no-repeat;
 	width: auto;
 /*    border: 1px solid white;*/
+    background-position: right;
     height: auto;
 /*	resize: 120%;*/
 	overflow: visible;
+    
 	
     
 }
@@ -177,20 +181,21 @@ font-size: 20px;
 	opacity: 0.5;
 writing-mode: vertical-rl;
 transition-property: background-color;
-margin-left: -90px;
-margin-top: 35px;
+margin-top: 100px;
 }
 
 #intro a:hover{
 	color:  #2eb5c6;
 	opacity: 1;
 }
-	
+
 	
 
 #section0 > nav{
+   
 	font-size: 30px;
 	line-height: 150%;
+    
     
 /*    font-weight: 200;*/
     
@@ -279,6 +284,7 @@ h2{
 #section3 > nav{
 	font-size: 23px;
     margin-right: 80px;
+    line-height: 138%;
 	
 }
 
@@ -300,12 +306,28 @@ h2{
 
 #section2{
 	display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    line-height: 90%;
 }	
 #section2 li{
 	font-size: 30px;
 }
-	
+#design h4{
+    text-align: justify;
+}
+
+#section4 h4{
+    text-align: center;
+}
+#section4 nav{
+    text-align: center;
+    line-height: 125%;
+}
+#design{
+   text-align:justify;
+    padding: 30px;
+}
+
 a{
 text-decoration: none;
 /*    bordeaux*/
@@ -320,13 +342,18 @@ text-decoration: none;
 	list-style-type: none;
 /*	color: #9e3927;*/
 	color: #e32526;
-	
 }
+
+hr{
+visibility: hidden;
+   height: 15px;
+}
+
 .content li :hover,.hamburger :hover,.header :hover,.menu li :hover{
 	color: #9ec231;
 }
 .skills{
-
+    text-align: center;
 	grid-column: span 4;
     color: #262626;
     font-size: 20px;
@@ -375,7 +402,7 @@ text-decoration: none;
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
-	border: 1px solid white; 
+/*	border: 1px solid white; */
 }
 
 .portfolio{
@@ -484,13 +511,12 @@ text-decoration: none;
 span{
 /*  color: #a26438 ;*/
 /*  color: #f79520 ;*/
-	color: #fff
-		;
+	color: #fff;
+    opacity: 0.9;
 /*color:#3c3082;*/
 /*	color:#e73082;*/
 }
-
-#1{
-	grid-column: 12 span;
-	display: inline-grid;
+#section6 a{
+    color: #fff;
 }
+
