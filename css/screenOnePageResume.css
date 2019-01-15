@@ -44,24 +44,25 @@ html {
 html.at-loaded, html.at-loaded * {
     cursor: none !important;
 }
+
 body{
-	cursor: url(../assets/doigt.png), pointer;
-	
+	cursor: url(../assets/digit.png), pointer;
 }
+	
 
 a:link{
-	cursor: url(../assets/doigtplie.png), pointer;
+	cursor: url(../assets/digit2.png), pointer;
 }
 
 /*la mesure des rows*/
 .wrapper{
 	position: relative;
-    width: 101vw;
+    width: 100vw;
     height: 100vh;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: 15vh 85vh 85vh 15vh 100vh 100vh 100vh 15vh 80vh 10vh 15vh ;
-    grid-auto-rows: 20px;
+/*    grid-auto-rows: 20px;*/
 	
 }
 /*<!--1er rang	g-->*/
@@ -164,9 +165,12 @@ a:link{
 	width: auto;
 /*    border: 1px solid white;*/
     background-position: right;
+	
+	
     height: auto;
 /*	resize: 120%;*/
 	overflow: visible;
+/*margin-right: -25px;*/
     
 	
     
@@ -181,7 +185,7 @@ font-size: 20px;
 	opacity: 0.5;
 writing-mode: vertical-rl;
 transition-property: background-color;
-margin-top: 100px;
+margin-top: 50px;
 }
 
 #intro a:hover{
@@ -498,7 +502,7 @@ visibility: hidden;
 
 .slide {
   display: block;
-  background-image: url(../assets/avocado.png);	
+/*  background-image: url(../assets/avocado.png);	*/
   position: absolute;
   background-repeat: no-repeat;
   height: 100% !important;
