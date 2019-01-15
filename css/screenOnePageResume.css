@@ -81,7 +81,7 @@ html.at-loaded, html.at-loaded * {
 
 /*
 body{
-	cursor: url(../assets/vernis.png) 5 1, pointer;
+	cursor: url(../assets/vernis.png), pointer;
 	
 }
 */
