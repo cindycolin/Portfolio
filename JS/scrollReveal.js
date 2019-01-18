@@ -37,6 +37,14 @@ sr.reveal('.underline',{
 	reset: true,
 	delay: 500
 });
+sr.reveal('.underlineBis',{
+	origin: 'right',
+	distance: '950px',
+	duration: 2200,
+	scale: 0.2,
+	reset: true,
+	delay: 500
+});
 
 sr.reveal('.underline2Bis',{
 	origin: 'left',
