@@ -12,7 +12,7 @@ sr.reveal('h2', {
 });
 
 sr.reveal('#intro', {
-	origin: 'left',
+	origin: 'top',
 	distance: '150px',
 	duration: 2000,
 	scale: 0.2,
@@ -78,7 +78,14 @@ sr.reveal('.skills',{
 	reset: true,
 	delay: 250
 });
-
+sr.reveal('.underline4', {
+	origin: 'bottom',
+	distance: '150px',
+	duration: 2000,
+	scale: 0.2,
+	reset: true,
+	delay: 500
+});
 //sr.reveal('#section5',{
 //	origin: 'top',
 //	distance: '30px',

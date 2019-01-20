@@ -30,8 +30,8 @@ html {
 	font-family: 'Fredoka One', cursive;
 	color: #e32526 ;
 /*	color:#e73082;*/
-	background-color: #262626;
-   /*background-color: #fff;*/
+/*	background-color: #262626;*/
+   background-color: #fff;
 }
 
 
@@ -48,6 +48,7 @@ body{
 
 a:link{
 	cursor: url(../assets/digit2.png), pointer;
+	
 }
 */
 
@@ -59,6 +60,20 @@ a:link{
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: 15vh 85vh 100vh  100vh 100vh 100vh 15vh 100vh 10vh 75vh 10vh 90vh 10vh ;
+	grid-template-areas: "a b"
+						 "c d"
+						 "e f"
+						 "g h"
+					     "i j"
+						 "k l"
+						 "m m"
+						 "n n"
+						 "o o"
+						 "p p"
+						 "q q"
+						 "r s"
+						 "t t";
+						 
 }
 /*<!--1er rang	g-->*/
 .header{
@@ -69,7 +84,7 @@ a:link{
 .logo{
 	display: block;
 	margin-top: 5vh;
-	margin-left: 5vh;
+	margin-left: 5vw;
 	width: 20%;
 	background: url(../assets/logo2.svg);
 	background-repeat: no-repeat;
@@ -91,9 +106,11 @@ a:link{
 	font-size: 40px;
 
 }
-.name2{
-	width: 800%;
+/*
+.name2 img{
+	resize: 50%;
 }
+*/
 
 .hamburger img{
 	width: 100%;
@@ -144,13 +161,15 @@ a:link{
 }
 
 #section0 > nav{
-	font-size: 30px;
-	line-height: 155%;
+	font-size: 28px;
+	line-height: 125%;
+	text-align: center;
 }
 
 #section0 a{
-    color: #c02511;
-	/*	color:#e73082;*/
+	color: #2eb5c6;
+/*    color: #c02511;*/
+/*		color:#e73082;*/
 }
     
 #section0 a:hover{
@@ -192,10 +211,11 @@ h2{
 
 .underline2{
 	position: absolute;
-	width: 640px;
+	width: 450px;
 	height: 40px;
 	background-color: #e32526;
 	margin-top: 63px;
+/*	margin-right: 115px;*/
 	z-index: -5;
 }
 
@@ -306,7 +326,7 @@ hr{
 visibility: hidden;
    height: 15px;
 }
-.content li :hover,.hamburger :hover,.header :hover,.menu li:hover{
+.content li :hover,.hamburger :hover,.header :hover,.menu li :hover{
 	color: #9ec231;
 }
 
@@ -318,7 +338,7 @@ visibility: hidden;
 	display: flex;
 	grid-column: span 12;
 	background-image: url(../assets/avocado.png);
-    opacity: 0.4;
+    opacity: 0.9;
 
 }
 .menu,.content,.skills{
@@ -344,12 +364,6 @@ visibility: hidden;
 	margin-top: 3%;
 	margin-bottom: 40px;
 }
-.gallerie a, .museeTitre a{
-	
-	border: 1px solid white;
-	
-}
-	
 
 #g1, #g2, #g3{
 	width: 300px;;
@@ -409,8 +423,9 @@ visibility: hidden;
 span{
 /*  color: #a26438 ;*/
 /*  color: #f79520 ;*/
-	color: #fff;
-    opacity: 0.9;
+	color: #262626;
+/*	color: #fff;*/
+    opacity: 1;
 /*color:#3c3082;*/
 /*	color:#e73082;*/
 }
@@ -419,6 +434,7 @@ span{
     margin-right: 80px;
 	font-family: 'Nunito', sans-serif;
 	line-height: 130%;
+	
 }
 #flhaut{
 	align-self: flex-start;
@@ -433,15 +449,9 @@ span{
 	margin-right: -500px;
 	padding-bottom: 30px;
 }
-	
-#section6 li{
-	color: #fff;
-}
-#section6 a{
-    color: #fff;
-}
+
 #section6 a:hover{
-    color: #9ec231  ;
+    color: #e73082 ;
 }
 #section5 {
     display: flex;
@@ -451,17 +461,93 @@ span{
 /*          mobile*/
 @media (max-width: 600px) {
   body {
-    background: grey;
+    background-color: lightgray;
   }
 
-.menu, .content, .header,.hamburger{
+.menu, .content, .header{
 	grid-column: span 12;
 	font-size: 20px;
 
-}      
-	#intro{
-		
+} 
+.hamburger{
+		display: none;
+	    
 	}
+.header{
+	grid-column: span 12;
+	display: flex;
+}
+	.logo{
+	width: 15%;	
+	}
+	
+.wrapper{
+	grid-template-rows: 70px 300px 300px 100px 250px 300px 100px 100px 300px 300px 100px ;	
+}
+	#intro{
+	margin-right: auto;
+	margin-left: auto;
+	}
+	#intro a{
+	margin-top: 15px;
+	margin-left: -23px;
+	font-size: 14px;
+	}
+	#section0 a{
+	color:#e32526;
+    
+}
+	h3{
+	font-size: 46.8px;
+}
+h2{
+	font-size: 46.8px;
+}
+#section1 > nav{
+	font-size: 17px;
+    margin-right: auto;
+	margin-left: auto;
+}	
+#section3 > nav{
+	font-size: 15px;
+    
+    line-height: 138%;
+	 margin-right: 10px;
+	margin-left: 10px;
+}	
+	
+#section2 li{
+	font-size: 17px;
+}
+	#design h4{
+		font-size: 19px;
+	}	
+#section4 > nav{
+	font-size: 19px;
+    margin: auto;
+}	
+/*
+	grid-template-areas: "a b"
+						 "c" 
+						 "d"
+						 "e" 
+						 "f"
+						 "h" 
+						 "g"
+					     "i" 
+						 "j"
+						 "l"
+						 "k"
+						 "m m"
+						 "n n"
+						 "o o"
+						 "p p"
+						 "q q"
+						 "r s"
+						 "t t";
+						 
+}
+*/
     
           
     
