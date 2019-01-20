@@ -8,7 +8,8 @@ sr.reveal('h2', {
 	duration: 2000,
 	scale: 0.2,
 	reset: true,
-	delay: 500
+	delay: 500,
+	mobile:true
 });
 
 sr.reveal('#intro', {
@@ -17,7 +18,8 @@ sr.reveal('#intro', {
 	duration: 2000,
 	scale: 0.2,
 	reset: true,
-	delay: 500
+	delay: 500,
+	mobile:true
 });
 
 sr.reveal('h3', {
@@ -26,30 +28,33 @@ sr.reveal('h3', {
 	duration: 2000,
 	scale: 0.2,
 	reset: true,
-	delay: 500
+	delay: 500,
+	mobile:false
 });
 
 sr.reveal('.underline',{
 	origin: 'right',
 	distance: '950px',
-	duration: 2200,
+	duration: 2000,
 	scale: 0.2,
 	reset: true,
-	delay: 500
+	delay: 500,
+	mobile:true
 });
 sr.reveal('.underlineBis',{
 	origin: 'right',
 	distance: '950px',
-	duration: 2200,
+	duration: 2000,
 	scale: 0.2,
 	reset: true,
-	delay: 500
+	delay: 500,
+	mobile:false
 });
 
 sr.reveal('.underline2Bis',{
 	origin: 'left',
 	distance: '950px',
-	duration: 2200,
+	duration: 2000,
 	scale: 0.2,
 	reset: true,
 	delay: 500
@@ -57,7 +62,7 @@ sr.reveal('.underline2Bis',{
 sr.reveal('.underline3',{
 	origin: 'left',
 	distance: '950px',
-	duration: 2200,
+	duration: 2000,
 	scale: 0.2,
 	reset: true,
 	delay: 500
@@ -65,7 +70,7 @@ sr.reveal('.underline3',{
 sr.reveal('.underline2', {
 	origin: 'left',
 	distance: '950px',
-	duration: 2200,
+	duration: 2000,
 	scale: 0.2,
 	reset: true,
 	delay: 500
