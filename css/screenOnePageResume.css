@@ -466,10 +466,8 @@ span{
 
 /*          mobile*/
 @media (max-width: 600px) {
-  body {
-    background: grey;
-  }
-
+ 
+body{ -webkit-text-size-adjust:100%; } 
 .menu, .content, .header,.hamburger{
 	grid-column: span 12;
 	font-size: 20px;
