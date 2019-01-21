@@ -41,6 +41,15 @@ sr.reveal('.underline',{
 	delay: 500,
 	mobile:true
 });
+sr.reveal('.underline3a',{
+	origin: 'right',
+	distance: '950px',
+	duration: 2000,
+	scale: 0.2,
+	reset: true,
+	delay: 500,
+	mobile:true
+});
 sr.reveal('.underlineBis',{
 	origin: 'right',
 	distance: '950px',
