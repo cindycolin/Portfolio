@@ -40,16 +40,14 @@ html.at-loaded, html.at-loaded * {
     cursor: none !important;
 }
 
-/*
 body{
-	cursor: url(../assets/digit.png), pointer;
+	cursor: url(../assets/rondRouge.png), pointer;
 	
 }
 
 a:link{
-	cursor: url(../assets/digit2.png), pointer;
+	cursor: url(../assets/rondJaune.png), pointer;
 }
-*/
 
 /*la mesure des rows*/
 .wrapper{
@@ -92,7 +90,8 @@ a:link{
 
 }
 .name2{
-	width: 800%;
+	width: 40%;
+    
 }
 
 .hamburger img{
