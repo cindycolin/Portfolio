@@ -230,11 +230,11 @@ h2{
 
 .underline2{
 	position: absolute;
-	width: 640px;
+	width: 400px;
 	height: 40px;
 	background-color: #e32526;
 	margin-top: -35px;
-    margin-left:-28px;
+    margin-left:-88px;
 	z-index: -5;
 }
 
