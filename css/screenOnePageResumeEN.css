@@ -85,7 +85,7 @@ a:link{
 	margin-top: 5vh;
 	margin-left: 5vw;
 	width: 20%;
-	background: url(../assets/logo2.svg);
+	background: url(../assets/versionFr.svg);
 	background-repeat: no-repeat;
 	opacity: 1;
 }
@@ -103,6 +103,7 @@ a:link{
 .menu, .content{
 	grid-column: span 6;
 	font-size: 40px;
+    display: flex;
 
 }
 /*
@@ -144,8 +145,10 @@ a:link{
 	color:#2eb5c6;
 	opacity: 0.7;
 	writing-mode: vertical-rl;
-	margin-top: 90px;
-	margin-left: -75px;
+	margin-top: 100px;
+	margin-right: 570px;
+	margin-left: -60px;
+    
 }
 
 #intro img{
@@ -349,6 +352,7 @@ visibility: hidden;
 	display: flex;
 	grid-column: span 12;
 	background-image: url(../assets/avocado.png);
+    background-repeat: no-repeat;
     opacity: 0.9;
 
 }
@@ -407,6 +411,8 @@ visibility: hidden;
 	
 .museeTitre p{
 	font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
 }
 
 .footer li{

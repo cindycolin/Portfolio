@@ -69,7 +69,7 @@ a:link{
 	margin-top: 5vh;
 	margin-left: 5vh;
 	width: 20%;
-	background: url(../assets/logo2.svg);
+	background: url(../assets/enVersion.svg);
 	background-repeat: no-repeat;
 	opacity: 1;
 }
@@ -87,6 +87,7 @@ a:link{
 .menu, .content{
 	grid-column: span 6;
 	font-size: 40px;
+    display: flex;
 
 }
 .name2{
@@ -127,8 +128,10 @@ a:link{
 	color:#2eb5c6;
 	opacity: 0.7;
 	writing-mode: vertical-rl;
-	margin-top: 90px;
-	margin-left: -75px;
+	margin-top: 100px;
+	margin-right: 570px;
+	margin-left: -60px;
+    
 }
 
 #intro img{
@@ -329,7 +332,8 @@ visibility: hidden;
 	display: flex;
 	grid-column: span 12;
 	background-image: url(../assets/avocado.png);
-    opacity: 0.4;
+   
+    background-repeat: no-repeat;
 
 }
 .menu,.content,.skills{
@@ -355,11 +359,13 @@ visibility: hidden;
 	margin-top: 3%;
 	margin-bottom: 40px;
 }
+/*
 .gallerie a, .museeTitre a{
 	
-	border: 1px solid white;
+	padding-right: -30px;
 	
 }
+*/
 	
 
 #g1, #g2, #g3{
@@ -393,6 +399,8 @@ visibility: hidden;
 	
 .museeTitre p{
 	font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
 }
 
 .footer li{
