@@ -331,11 +331,9 @@ visibility: hidden;
 .footer{
 	display: flex;
 	grid-column: span 12;
-	background-image: url(../assets/avocado.png);
-   
-    background-repeat: no-repeat;
-
 }
+	
+
 .menu,.content,.skills{
 	display: flex;
 	justify-content: center;
@@ -406,8 +404,12 @@ visibility: hidden;
 .footer li{
 	list-style-type: none;
 /*	color: #fff;*/
-	
 }
+.footer img{
+    position: absolute;
+    padding-left: 50px;
+    padding-top: -50px;
+}	
 #container {
   position: absolute;
   
