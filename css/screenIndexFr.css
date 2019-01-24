@@ -1,10 +1,8 @@
 /*
 blue:#2eb5c6;
-
 gris:#262626;
 vertCLair:#9ec231;
 vertFonce:#1a8d41;
-
 bordeauxNav: #9d2378;
 bleuFonce:#3c3082
 roseFonce:#e73082
@@ -26,29 +24,21 @@ html{
     margin: 0;
 }
 
-
-
 html {
 	font-family: 'Fredoka One', cursive;
 	color: #e32526 ;
 /*	color:#e73082;*/
-/*	background-color: #262626;*/
-   background-color: #fff;
+	background-color: #262626;
+   /*background-color: #fff;*/
 }
-
-
-
 html.at-loaded, html.at-loaded * {
     cursor: none !important;
 }
-
 body{
 	cursor: url(../assets/rondRouge.png), pointer;
-	
 }
-
 a:link{
-	cursor: url(../assets/rondOrange.png), pointer;
+	cursor: url(../assets/rondJaune.png), pointer;
 }
 
 /*la mesure des rows*/
@@ -58,21 +48,7 @@ a:link{
 /*    height: 100vh;*/
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 15vh 85vh 100vh  100vh 100vh 100vh 15vh 100vh 10vh 75vh 10vh 90vh 10vh ;
-	grid-template-areas: "a b"
-						 "c d"
-						 "e f"
-						 "g h"
-					     "i j"
-						 "k l"
-						 "m m"
-						 "n n"
-						 "o o"
-						 "p p"
-						 "q q"
-						 "r s"
-						 "t t";
-						 
+	grid-template-rows: 15vh 85vh 100vh  100vh 100vh 100vh 10vh 80vh 5vh 65vh 5vh 90vh 10vh ;
 }
 /*<!--1er rang	g-->*/
 .header{
@@ -83,11 +59,11 @@ a:link{
 .logo{
 	display: block;
 	margin-top: 5vh;
-	margin-left: 5vw;
-	width: 20%;
-	background: url(../assets/versionFr.svg);
+	margin-left: 5vh;
+	width: 23%;
+	background: url(../assets/enVersion.svg);
 	background-repeat: no-repeat;
-	opacity: 0.75;
+	opacity: 0.65;
 }
 
 .logo:hover{
@@ -106,11 +82,10 @@ a:link{
     display: flex;
 
 }
-/*
-.name2 img{
-	resize: 50%;
+.name2{
+	width: 40%;
+    
 }
-*/
 
 .hamburger img{
 	width: 100%;
@@ -120,13 +95,8 @@ a:link{
 	padding-top: 10%;
     padding-right: 50px;
     opacity: 1;
-}
-.footer img{
-    position: absolute;
-    padding-left: 50px;
-    padding-top: -50px;
-}
 	
+}
 .hamburger img:hover{
 	opacity: 0.75;
 }
@@ -170,13 +140,11 @@ a:link{
 #section0 > nav{
 	font-size: 30px;
 	line-height: 155%;
-	text-align: justify;
 }
 
 #section0 a{
-	color: #2eb5c6;
-/*    color: #c02511;*/
-/*		color:#e73082;*/
+    color: #c02511;
+	/*	color:#e73082;*/
 }
     
 #section0 a:hover{
@@ -185,7 +153,6 @@ a:link{
 h3{
 	font-size: 76.8px;
 	color: #2eb5c6;
-    margin: 0;
 /*	color: #e73082;*/
 }
 h2{
@@ -230,11 +197,11 @@ h2{
 
 .underline2{
 	position: absolute;
-	width: 400px;
+	width: 640px;
 	height: 40px;
 	background-color: #e32526;
 	margin-top: -35px;
-    margin-left:-88px;
+    margin-left:-28px;
 	z-index: -5;
 }
 
@@ -345,9 +312,11 @@ hr{
 visibility: hidden;
    height: 15px;
 }
-.content li :hover,.hamburger :hover,.header :hover,.menu li :hover{
+/*
+.content li :hover,.hamburger :hover,.header :hover,.menu li:hover{
 	color: #9ec231;
 }
+*/
 
 .content{
 	grid-column: span 6;
@@ -356,9 +325,9 @@ visibility: hidden;
 .footer{
 	display: flex;
 	grid-column: span 12;
-    opacity: 0.9;
 }
 	
+
 .menu,.content,.skills{
 	display: flex;
 	justify-content: center;
@@ -379,12 +348,11 @@ visibility: hidden;
 	justify-content:center;
     align-items: center;
 	overflow: hidden;
-	margin-top: 3%;
-	margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 #g1, #g2, #g3{
-	width: 300px;;
+	width: 300px;
 	height: 490px;
 	border: 1px solid red;
 	margin: 2%;
@@ -421,8 +389,12 @@ visibility: hidden;
 .footer li{
 	list-style-type: none;
 /*	color: #fff;*/
-	
 }
+.footer img{
+    position: absolute;
+    padding-left: 50px;
+    padding-top: -50px;
+}	
 #container {
   position: absolute;
   
@@ -436,16 +408,16 @@ visibility: hidden;
 .slide {
   display: block;
   position: absolute;
-  height: 50% !important;
-  width: 50% !important;
+    background-image: url(../assets/oeilTRAIT2.svg);
+  height: 25% !important;
+  width: 25% !important;
 }
   
 span{
 /*  color: #a26438 ;*/
 /*  color: #f79520 ;*/
-	color: #262626;
-/*	color: #fff;*/
-    opacity: 1;
+	color: #fff;
+    opacity: 0.9;
 /*color:#3c3082;*/
 /*	color:#e73082;*/
 }
@@ -454,7 +426,6 @@ span{
     margin-right: 80px;
 	font-family: 'Nunito', sans-serif;
 	line-height: 130%;
-	
 }
 #flhaut{
 	align-self: flex-start;
@@ -469,9 +440,15 @@ span{
 	margin-right: -500px;
 	padding-bottom: 30px;
 }
-
+	
+#section6 li{
+	color: #fff;
+}
+#section6 a{
+    color: #fff;
+}
 #section6 a:hover{
-    color: #e73082 ;
+    color: #9ec231  ;
 }
 #section5 {
     display: flex;
@@ -480,100 +457,21 @@ span{
     display: flex;
 }
 
-/*--------------version mobile---------------*/
+
+
+
+/*          mobile*/
 @media (max-width: 600px) {
-	
+ 
 body{ -webkit-text-size-adjust:100%; } 
-.menu, .content, .header{
+.menu, .content, .header,.hamburger{
 	grid-column: span 12;
 	font-size: 20px;
 
-} 
-.hamburger{
-		display: none;
-	    
-	}
-.header{
-	grid-column: span 12;
-	display: flex;
-}
-	.logo{
-	width: 15%;	
-	}
-	
-.wrapper{
-	grid-template-rows: 70px 300px 300px 100px 250px 300px 100px 100px 300px 300px 100px ;	
-}
+}      
 	#intro{
-	margin-right: auto;
-	margin-left: auto;
+		
 	}
-	#intro a{
-	margin-top: 15px;
-	margin-left: -23px;
-	font-size: 14px;
-	}
-	#section0 a{
-	color:#e32526;
-    
-}
-	h3{
-	font-size: 46.8px;
-}
-h2{
-	font-size: 46.8px;
-}
-#section1 > nav{
-	font-size: 17px;
-    margin-right: auto;
-	margin-left: auto;
-}	
-#section3 > nav{
-	font-size: 15px;
-    
-    line-height: 138%;
-	 margin-right: 10px;
-	margin-left: 10px;
-}	
-	
-#section2 li{
-	font-size: 17px;
-}
-	#design h4{
-		font-size: 19px;
-	}	
-#section4 > nav{
-	font-size: 19px;
-    margin: auto;
-}
-	#section0 > nav{
-	font-size: 26px;
-	line-height: 125%;
-	text-align: center;
-}
-
-/*
-	grid-template-areas: "a b"
-						 "c" 
-						 "d"
-						 "e" 
-						 "f"
-						 "h" 
-						 "g"
-					     "i" 
-						 "j"
-						 "l"
-						 "k"
-						 "m m"
-						 "n n"
-						 "o o"
-						 "p p"
-						 "q q"
-						 "r s"
-						 "t t";
-						 
-}
-*/
     
           
     
