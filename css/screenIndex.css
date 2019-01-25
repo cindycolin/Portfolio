@@ -1,10 +1,8 @@
 /*
 blue:#2eb5c6;
-
 gris:#262626;
 vertCLair:#9ec231;
 vertFonce:#1a8d41;
-
 bordeauxNav: #9d2378;
 bleuFonce:#3c3082
 roseFonce:#e73082
@@ -26,30 +24,21 @@ html{
     margin: 0;
 }
 
-
-
 html {
 	font-family: 'Fredoka One', cursive;
 	color: #e32526 ;
 /*	color:#e73082;*/
-/*	background-color: #262626;*/
-   background-color: #fff;
+	background-color: #262626;
+   /*background-color: #fff;*/
 }
-
-
-
 html.at-loaded, html.at-loaded * {
     cursor: none !important;
 }
-
 body{
 	cursor: url(../assets/rondRouge.png), pointer;
-    
-	
 }
-
 a:link{
-	cursor: url(../assets/rondOrange.png), pointer;
+	cursor: url(../assets/rondJaune.png), pointer;
 }
 
 /*la mesure des rows*/
@@ -60,20 +49,6 @@ a:link{
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: 15vh 85vh 100vh  100vh 100vh 100vh 10vh 80vh 5vh 65vh 5vh 90vh 10vh ;
-	grid-template-areas: "a b"
-						 "c d"
-						 "e f"
-						 "g h"
-					     "i j"
-						 "k l"
-						 "m m"
-						 "n n"
-						 "o o"
-						 "p p"
-						 "q q"
-						 "r s"
-						 "t t";
-						 
 }
 /*<!--1er rang	g-->*/
 .header{
@@ -83,12 +58,12 @@ a:link{
 
 .logo{
 	display: block;
-	margin-top: 5vh;
-	margin-left: 5vw;
-	width: 30%;
-	background: url(../assets/versionFr.svg);
+	margin-top: 8vh;
+	margin-left: 100px;
+	width: 23%;
+	background: url(../assets/enVersion.svg);
 	background-repeat: no-repeat;
-	opacity: 0.7;
+	opacity: 0.8;
 }
 
 .logo:hover{
@@ -107,11 +82,10 @@ a:link{
     display: flex;
 
 }
-/*
-.name2 img{
-	resize: 50%;
+.name2{
+	width: 40%;
+    
 }
-*/
 
 .hamburger img{
 	width: 100%;
@@ -121,13 +95,8 @@ a:link{
 	padding-top: 10%;
     padding-right: 50px;
     opacity: 1;
-}
-.footer img{
-    position: absolute;
-    padding-left: 50px;
-    padding-top: -50px;
-}
 	
+}
 .hamburger img:hover{
 	opacity: 0.75;
 }
@@ -171,13 +140,11 @@ a:link{
 #section0 > nav{
 	font-size: 30px;
 	line-height: 155%;
-	text-align: justify;
 }
 
 #section0 a{
-	color: #2eb5c6;
-/*    color: #c02511;*/
-/*		color:#e73082;*/
+    color: #c02511;
+	/*	color:#e73082;*/
 }
     
 #section0 a:hover{
@@ -186,7 +153,6 @@ a:link{
 h3{
 	font-size: 76.8px;
 	color: #2eb5c6;
-    margin: 0;
 /*	color: #e73082;*/
 }
 h2{
@@ -231,11 +197,11 @@ h2{
 
 .underline2{
 	position: absolute;
-	width: 400px;
+	width: 640px;
 	height: 40px;
 	background-color: #e32526;
 	margin-top: -35px;
-    margin-left:-88px;
+    margin-left:-28px;
 	z-index: -5;
 }
 
@@ -347,7 +313,7 @@ visibility: hidden;
    height: 15px;
 }
 /*
-.content li :hover,.hamburger :hover,.header :hover,.menu li :hover{
+.content li :hover,.hamburger :hover,.header :hover,.menu li:hover{
 	color: #9ec231;
 }
 */
@@ -359,10 +325,9 @@ visibility: hidden;
 .footer{
 	display: flex;
 	grid-column: span 12;
-    
-    opacity: 0.9;
 }
 	
+
 .menu,.content,.skills{
 	display: flex;
 	justify-content: center;
@@ -389,7 +354,7 @@ visibility: hidden;
 #g1, #g2, #g3{
 	width: 300px;
 	height: 490px;
-	border: 2px solid red;
+	border: 1px solid red;
 	margin: 2%;
 }
 #g1 img, #g2 img, #g3 img{
@@ -400,7 +365,7 @@ visibility: hidden;
 #g4, #g5{
 	width: 580px;
 	height: 350px;
-	border: 2px solid red;
+	border: 1px solid red;
 	margin: 2%;
 }
 
@@ -424,8 +389,12 @@ visibility: hidden;
 .footer li{
 	list-style-type: none;
 /*	color: #fff;*/
-	
 }
+.footer img{
+    position: absolute;
+    padding-left: 50px;
+    padding-top: -50px;
+}	
 #container {
   position: absolute;
   
@@ -439,17 +408,17 @@ visibility: hidden;
 .slide {
   display: block;
   position: absolute;
-    background-image: url(../assets/oeilTRAIT4.svg);
+/*
   height: 25% !important;
   width: 25% !important;
+*/
 }
   
 span{
 /*  color: #a26438 ;*/
 /*  color: #f79520 ;*/
-	color: #262626;
-/*	color: #fff;*/
-    opacity: 1;
+	color: #fff;
+    opacity: 0.9;
 /*color:#3c3082;*/
 /*	color:#e73082;*/
 }
@@ -458,7 +427,6 @@ span{
     margin-right: 80px;
 	font-family: 'Nunito', sans-serif;
 	line-height: 130%;
-	
 }
 #flhaut{
 	align-self: flex-start;
@@ -473,9 +441,15 @@ span{
 	margin-right: -500px;
 	padding-bottom: 30px;
 }
-
+	
+#section6 li{
+	color: #fff;
+}
+#section6 a{
+    color: #fff;
+}
 #section6 a:hover{
-    color: #e73082 ;
+    color: #9ec231  ;
 }
 #section5 {
     display: flex;
@@ -584,3 +558,25 @@ h2{
     
     
 }
+
+/*
+
+          mobile
+@media (max-width: 600px) {
+ 
+body{ -webkit-text-size-adjust:100%; } 
+.menu, .content, .header,.hamburger{
+	grid-column: span 12;
+	font-size: 20px;
+
+}      
+	#intro{
+		
+	}
+    
+          
+    
+    
+    
+}
+*/
