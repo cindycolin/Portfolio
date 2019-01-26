@@ -48,7 +48,25 @@ a:link{
 /*    height: 100vh;*/
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 15vh 85vh 100vh  100vh 100vh 100vh 100px 590px 60px 390px 60px 90vh 10vh ;
+	grid-template-rows: 15vh 85vh 100vh 100vh 100vh 100vh 100px 590px 60px 390px 60px 90vh 10vh ;
+	
+/*
+	 grid-template-areas: 
+                    "header    hamburger"   
+		 			"intro      section0"
+                    "section1a  section1"   
+		 			"section2  section2a" 
+		 			"section3a  section3"
+		 			"section4  section4a"
+		 			"section5"
+		 			"gallerie"
+		 			"museeTitre"
+		 			"gallerie2"
+		 			"museeTitre"
+		 			"section6a section6"
+		 			"section7";
+*/
+                    
 }
 /*<!--1er rang	g-->*/
 .header{
@@ -465,7 +483,7 @@ span{
 }
 
 /*--------------version mobile---------------*/
-@media (max-width: 600px) {
+@media (min-width: 380px) {
 	
 body{ -webkit-text-size-adjust:100%; } 
 .menu, .content, .header{
@@ -477,112 +495,205 @@ body{ -webkit-text-size-adjust:100%; }
 		display: none;
 	    
 	}
+/*
 .header{
 	grid-column: span 12;
 	display: flex;
 }
+*/
 	.logo{
 	width: 15%;	
 	}
 	
 .wrapper{
-	grid-template-rows: 70px 300px 300px 100px 250px 300px 100px 100px 300px 300px 100px ;	
+	grid-template-rows: 50px 350px 300px 160px 260px 130px 360px 160px 400px 320px 260px 110px auto 70px auto 80px 50px 200px;
+
+	grid-template-areas: 
+                    "a"   
+		 			"b"
+					"c"
+                    "d"
+					"e"   
+		 			"f"
+					"g"
+		 			"h"
+					"i"
+		 			"j"
+		 			"k"
+		 			"l"
+		 			"m"
+		 			"n"
+		 			"o"
+		 			"p"
+					"q"
+		 			"r"
+					"s"
+					"t";
+	
 }
+
+	
+
+	.header{
+		grid-area: a;
+		}
 	#intro{
+		grid: b;
+	}
+	
+	#section0{
+    grid-area: c;
+	padding: 100px;
+	}
+
+	#section1a{
+		grid-area: d;
+	}
+	#section1{
+		grid-area: e;
+	}
+	#section2a{
+		grid-area:f;
+	}
+	#section2{
+		grid-area:g;
+	}
+	#section3a{
+		grid-area:h;
+	}
+	#section3{
+		grid-area:i;
+	}
+	#section4a{
+		grid-area:j;
+	}
+	#section4{
+		grid-area: k;
+	}
+	#section5{
+		grid-area: l;
+	}	
+	.gallerie{
+		grid-area: m;
+	}
+	.mt1{
+		grid-area: n;
+	}
+	#gallerie2{
+		grid-area: o;
+	}
+	.mt2{
+		grid-area: p;
+	}
+	#section6a{
+		grid-area: r;
+	}
+	#section6{
+		grid-area: s;
+		
+	}
+	#section7{
+		grid-area: t;
+	}
+		
+	
+	
+		
+/*
+#intro{
 	margin-right: auto;
 	margin-left: auto;
-	}
-	#intro a{
-	margin-top: 15px;
-	margin-left: -23px;
-	font-size: 14px;
-	}
-	#section0 a{
-	color:#e32526;
-    
 }
-	h3{
+*/
+#intro a{
+	display: none;
+}
+		
+/*
+#section0 a{
+	
+}
+*/
+	
+h3{
 	font-size: 46.8px;
 }
 h2{
 	font-size: 46.8px;
 }
+/*
+.underline{
+	position: static;
+	}	
+*/
+#section0  ul{
+	
+		
+	}
+	
 #section1 > nav{
 	font-size: 17px;
     margin-right: auto;
 	margin-left: auto;
+	line-height: 155%;
 }	
 #section3 > nav{
 	font-size: 15px;
-    
     line-height: 138%;
-	 margin-right: 10px;
+	margin-right: 10px;
 	margin-left: 10px;
 }	
 	
 #section2 li{
 	font-size: 17px;
+	line-height: 138%;
 }
-	#design h4{
-		font-size: 19px;
-	}	
+	
+#design h4{
+	font-size: 19px;
+	text-align: left;
+	padding-bottom: 10px;
+}	
 #section4 > nav{
 	font-size: 19px;
     margin: auto;
 }
 	#section0 > nav{
 	font-size: 26px;
-	line-height: 125%;
+	line-height: 135%;
+	text-align: justify;
+}
+
+#section3 > nav{
+   font-size: 16px;
+    line-height: 135%;
 	text-align: center;
 }
-
-/*
-	grid-template-areas: "a b"
-						 "c" 
-						 "d"
-						 "e" 
-						 "f"
-						 "h" 
-						 "g"
-					     "i" 
-						 "j"
-						 "l"
-						 "k"
-						 "m m"
-						 "n n"
-						 "o o"
-						 "p p"
-						 "q q"
-						 "r s"
-						 "t t";
-						 
-}
-*/
-    
-          
-    
-    
-    
-}
-
-/*
-
-          mobile
-@media (max-width: 600px) {
- 
-body{ -webkit-text-size-adjust:100%; } 
-.menu, .content, .header,.hamburger{
-	grid-column: span 12;
-	font-size: 20px;
-
-}      
-	#intro{
-		
+.gallerie, .gallerie2{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
 	}
-    
-          
-    
-    
-    
+.museeTitre p{
+	font-size: 1em;
+	text-align: center;
+	
+	}	
+	
+#flbas,#flhaut{
+	display: none;
+	}
+	
+#g4, #g5{
+	width: 290px;
+	height: 175px;
+	border: 1px solid red;
+	margin: 2%;
+}	
+#section6 a{
+	font-size: 22px;
+	line-height: 200%;
+	text-align: center;
+	color: #9ec231;
+}	
 }
-*/

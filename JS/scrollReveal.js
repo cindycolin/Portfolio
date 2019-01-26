@@ -39,7 +39,7 @@ sr.reveal('.underline',{
 	scale: 0.2,
 	reset: true,
 	delay: 350,
-	mobile:true
+	mobile:false
 });
 sr.reveal('.underline3a',{
 	origin: 'right',
@@ -48,7 +48,7 @@ sr.reveal('.underline3a',{
 	scale: 0.2,
 	reset: true,
 	delay: 350,
-	mobile:true
+	mobile:false
 });
 sr.reveal('.underlineBis',{
 	origin: 'right',
@@ -66,7 +66,8 @@ sr.reveal('.underline2Bis',{
 	duration: 1300,
 	scale: 0.2,
 	reset: true,
-	delay: 350
+	delay: 350,
+	mobile:false
 });
 sr.reveal('.underline3',{
 	origin: 'left',
@@ -74,7 +75,8 @@ sr.reveal('.underline3',{
 	duration: 1300,
 	scale: 0.2,
 	reset: true,
-	delay: 350
+	delay: 350,
+	mobile:false
 });
 sr.reveal('.underline2', {
 	origin: 'left',
@@ -82,7 +84,8 @@ sr.reveal('.underline2', {
 	duration: 1300,
 	scale: 0.2,
 	reset: true,
-	delay: 350
+	delay: 350,
+	mobile:false
 });
 
 sr.reveal('.skills',{
@@ -98,7 +101,8 @@ sr.reveal('.underline4', {
 	duration: 1300,
 	scale: 0.2,
 	reset: true,
-	delay: 350
+	delay: 350,
+	mobile:false
 });
 //sr.reveal('#section5',{
 //	origin: 'top',
