@@ -59,7 +59,7 @@ a:link{
 /*    height: 100vh;*/
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 15vh 85vh 100vh  100vh 100vh 100vh 10vh 80vh 5vh 65vh 5vh 90vh 10vh ;
+	grid-template-rows: 15vh 85vh 100vh  100vh 100vh 100vh 100px 590px 60px 390px 60px 90vh 10vh ;
 	grid-template-areas: "a b"
 						 "c d"
 						 "e f"
@@ -118,8 +118,8 @@ a:link{
     float: right;
 	clear: both;
     position: relative;
-	padding-top: 10%;
-    padding-right: 50px;
+	padding-top: 30px;
+    padding-right: 88px;
     opacity: 1;
 }
 .footer img{
@@ -301,6 +301,7 @@ h2{
 	font-family: 'Nunito', sans-serif;
 }
 
+
 #section2{
 	display: flex;
     justify-content: center;
@@ -384,6 +385,7 @@ visibility: hidden;
     align-items: center;
 	overflow: hidden;
     margin-bottom: 10px;
+	
 }
 
 #g1, #g2, #g3{
@@ -419,6 +421,14 @@ visibility: hidden;
 	font-size: 1.5em;
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
+	
+}
+.museeTitre a{
+   padding-left: 690px;
+/*	visibility: hidden;*/
+}
+.gallerie div a{
+	padding-left: 50px;
 }
 
 .footer li{
@@ -470,16 +480,14 @@ span{
 #flbas{
 	align-self: flex-end;
 	position: absolute;
-	margin-right: -500px;
+	margin-right: -522px;
 	padding-bottom: 30px;
 }
 
 #section6 a:hover{
     color: #e73082 ;
 }
-#section5 {
-    display: flex;
-}
+
 #section1a, #section2a, #section3a, #section4a, #section6a {
     display: flex;
 }
