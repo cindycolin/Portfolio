@@ -49,24 +49,6 @@ a:link{
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: 15vh 85vh 100vh 100vh 100vh 100vh 100px 590px 60px 390px 60px 90vh 10vh ;
-	
-/*
-	 grid-template-areas: 
-                    "header    hamburger"   
-		 			"intro      section0"
-                    "section1a  section1"   
-		 			"section2  section2a" 
-		 			"section3a  section3"
-		 			"section4  section4a"
-		 			"section5"
-		 			"gallerie"
-		 			"museeTitre"
-		 			"gallerie2"
-		 			"museeTitre"
-		 			"section6a section6"
-		 			"section7";
-*/
-                    
 }
 /*<!--1er rang	g-->*/
 .header{
@@ -98,8 +80,13 @@ a:link{
 	grid-column: span 6;
 	font-size: 40px;
     display: flex;
-
 }
+#section0 {
+	width: auto;
+	height: auto;
+}
+	
+
 .name2{
 	width: 40%;
     
@@ -483,29 +470,42 @@ span{
 }
 
 /*--------------version mobile---------------*/
-@media (max-width: 600px) {
+@media (max-width: 415x) {
+}
+body{ -webkit-text-size-adjust:100%; }
 	
-body{ -webkit-text-size-adjust:100%; } 
 .menu, .content, .header{
 	grid-column: span 12;
 	font-size: 20px;
-
 } 
+
 .hamburger{
 		display: none;
-	    
 	}
-/*
+	    
 .header{
 	grid-column: span 12;
 	display: flex;
 }
-*/
-	.logo{
+
+#intro{
+	padding: 5%;
+	height: 80%;
+	width: 80%;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.logo{
 	width: 15%;	
-	}
+}
+
+	
+
 	
 .wrapper{
+	width: auto;
+	grid-template-columns: auto;
 	grid-template-rows: 50px 350px 300px 160px 260px 130px 360px 160px 400px 320px 260px 110px auto 70px auto 80px 50px 200px;
 
 	grid-template-areas: 
@@ -530,6 +530,7 @@ body{ -webkit-text-size-adjust:100%; }
 					"s"
 					"t";
 	
+	
 }
 
 	
@@ -543,7 +544,7 @@ body{ -webkit-text-size-adjust:100%; }
 	
 	#section0{
     grid-area: c;
-	padding: 100px;
+	
 	}
 
 	#section1a{
@@ -596,41 +597,97 @@ body{ -webkit-text-size-adjust:100%; }
 		grid-area: t;
 	}
 		
-	
-	
-		
-/*
-#intro{
-	margin-right: auto;
-	margin-left: auto;
-}
-*/
 #intro a{
 	display: none;
 }
-		
-/*
-#section0 a{
-	
-}
-*/
-	
 h3{
 	font-size: 46.8px;
 }
 h2{
 	font-size: 46.8px;
 }
-/*
-.underline{
-	position: static;
-	}	
-*/
-#section0  ul{
+		
 	
 		
-	}
+
 	
+		
+
+	
+.underline{
+	position: absolute;
+	width: 350px;
+	height: 25px;
+/*	background-color: #e32526;*/
+	background-color: #9ec231;
+	margin-top:-15px;
+    margin-left: 0px;
+    margin-left: -20px;
+	z-index: -5;
+}
+.underline3a{
+	position: absolute;
+	width: 350px;
+	height: 25px;
+/*	background-color: #e32526;*/
+	background-color: #9ec231;
+	margin-top: 45px;
+	z-index: -5;
+}
+    
+
+
+.underlineBis{
+	position: absolute;
+	width: 300px;
+	height: 25px;
+	background-color: #9ec231;
+	margin-top: 38px;
+	z-index: -5;
+}
+
+.underline2{
+	position: absolute;
+	width: 350px;
+	height: 25px;
+	background-color: #e32526;
+	margin-top: -20px;
+    margin-left:10px;
+	z-index: -5;
+}
+
+.underline2Bis{
+	position: absolute;
+	width: 350px;
+	height: 25px;
+	background-color: #e32526;
+	margin-top: -70px;
+	margin-left: 50px;
+	z-index: -5;
+}
+.underline3{
+	position: absolute;
+	width: 350px;
+	height: 25px;
+	background-color: #e32526;
+	margin-top: -20px;
+	margin-left: 50px;
+	z-index: -5;
+}
+.underline4{
+	position: absolute;
+	width: 300px;
+	height: 25px;
+	background-color: #e32526;
+	margin-top: -20px;
+/*	margin-left: -30px;*/
+	z-index: -5;
+}
+#flbas,#flhaut{
+	display: none;
+	}
+
+
 #section1 > nav{
 	font-size: 17px;
     margin-right: auto;
@@ -658,9 +715,13 @@ h2{
 	font-size: 19px;
     margin: auto;
 }
-	#section0 > nav{
+#section4a{
+	text-align: center;
+}
+#section0 nav{
 	font-size: 26px;
 	line-height: 135%;
+	color: #c02511;
 	text-align: justify;
 }
 
@@ -677,23 +738,29 @@ h2{
 .museeTitre p{
 	font-size: 1em;
 	text-align: center;
+}	
 	
-	}	
 	
-#flbas,#flhaut{
-	display: none;
-	}
 	
 #g4, #g5{
 	width: 290px;
 	height: 175px;
 	border: 1px solid red;
 	margin: 2%;
-}	
-#section6 a{
-	font-size: 22px;
-	line-height: 200%;
+}
+#section6{
+	
 	text-align: center;
-	color: #9ec231;
-}	
+	font-size: 25px;
+}
+#section6 a{
+	font-size: 25px;
+	line-height: 220%;
+	text-align: center;
+	color: #fff;
+}
+	#container, .slide{
+		display: none;
+	}
+
 }
