@@ -9,7 +9,7 @@ sr.reveal('h2', {
 	scale: 0.2,
 	reset: true,
 	delay: 350,
-	mobile:true
+	mobile: true
 });
 
 sr.reveal('#intro', {
@@ -19,7 +19,7 @@ sr.reveal('#intro', {
 	scale: 0.2,
 	reset: true,
 	delay: 500,
-	mobile:true
+	mobile: true
 });
 
 sr.reveal('h3', {
@@ -29,7 +29,7 @@ sr.reveal('h3', {
 	scale: 0.2,
 	reset: true,
 	delay: 350,
-	mobile:false
+	mobile: true
 });
 
 sr.reveal('.underline',{
@@ -39,7 +39,7 @@ sr.reveal('.underline',{
 	scale: 0.2,
 	reset: true,
 	delay: 350,
-	mobile:false
+	mobile: true
 });
 sr.reveal('.underline3a',{
 	origin: 'right',
@@ -48,7 +48,7 @@ sr.reveal('.underline3a',{
 	scale: 0.2,
 	reset: true,
 	delay: 350,
-	mobile:false
+	mobile: true
 });
 sr.reveal('.underlineBis',{
 	origin: 'right',
@@ -57,7 +57,7 @@ sr.reveal('.underlineBis',{
 	scale: 0.2,
 	reset: true,
 	delay: 350,
-	mobile:false
+	mobile: true
 });
 
 sr.reveal('.underline2Bis',{
@@ -67,7 +67,7 @@ sr.reveal('.underline2Bis',{
 	scale: 0.2,
 	reset: true,
 	delay: 350,
-	mobile:false
+	mobile: true
 });
 sr.reveal('.underline3',{
 	origin: 'left',
@@ -76,7 +76,7 @@ sr.reveal('.underline3',{
 	scale: 0.2,
 	reset: true,
 	delay: 350,
-	mobile:false
+	mobile: true
 });
 sr.reveal('.underline2', {
 	origin: 'left',
@@ -85,7 +85,7 @@ sr.reveal('.underline2', {
 	scale: 0.2,
 	reset: true,
 	delay: 350,
-	mobile:false
+	mobile: true
 });
 
 sr.reveal('.skills',{
@@ -102,7 +102,7 @@ sr.reveal('.underline4', {
 	scale: 0.2,
 	reset: true,
 	delay: 350,
-	mobile:false
+	mobile: true
 });
 //sr.reveal('#section5',{
 //	origin: 'top',

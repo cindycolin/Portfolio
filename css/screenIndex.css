@@ -470,8 +470,9 @@ span{
 }
 
 /*--------------version mobile---------------*/
-@media (max-width: 415x) {
-}
+
+@media (max-width : 415px) {
+
 body{ -webkit-text-size-adjust:100%; }
 	
 .menu, .content, .header{
@@ -749,18 +750,23 @@ h2{
 	margin: 2%;
 }
 #section6{
-	
 	text-align: center;
 	font-size: 25px;
 }
+	
 #section6 a{
-	font-size: 25px;
+	font-size: 23px;
 	line-height: 220%;
 	text-align: center;
 	color: #fff;
+	margin-left:10%;
+	
 }
+
+/*
 	#container, .slide{
 		display: none;
 	}
-
+*/
 }
+
