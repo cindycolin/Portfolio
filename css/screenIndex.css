@@ -58,6 +58,7 @@ a:link{
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: 15vh 85vh 100vh 100vh 100vh 100vh 100px 590px 60px 390px 60px 90vh 10vh ;
     overflow-x: hidden; !important
+    overflow-y: hidden; !important
 }
 /*<!--1er rang	g-->*/
 .header{
@@ -496,8 +497,13 @@ body{ -webkit-text-size-adjust:100%; }
 .header{
 	grid-column: span 12;
 	display: flex;
+	width: 160%;
+	height: 160%;
+	margin-left: -60px;
 }
-
+.logo{
+opacity: 1;
+	}
 #intro{
 	padding: 5%;
 	height: 80%;
@@ -506,9 +512,6 @@ body{ -webkit-text-size-adjust:100%; }
 	margin-left: 0;
 }
 
-.logo{
-	width: 15%;	
-}
 
 .wrapper{
 	width: auto;
@@ -599,6 +602,7 @@ body{ -webkit-text-size-adjust:100%; }
 	#section7{
 		grid-area: t;
 	}
+	
 		
 #intro a{
 	display: none;
@@ -627,7 +631,7 @@ h2{
 	height: 25px;
 /*	background-color: #e32526;*/
 	background-color: #9ec231;
-	margin-top: 45px;
+	margin-top: 25px;
 	z-index: -5;
 }
     .underlineBis{
@@ -645,7 +649,7 @@ h2{
 	height: 25px;
 	background-color: #e32526;
 	margin-top: -20px;
-    margin-left:10px;
+    margin-left:0px;
 	z-index: -5;
 }
 
@@ -751,7 +755,7 @@ h2{
 	line-height: 220%;
 	text-align: center;
 	color: #fff;
-	margin-left:10%;
+	margin-left:13%;
 	
 }
 

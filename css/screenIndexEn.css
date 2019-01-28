@@ -502,7 +502,13 @@ body{ -webkit-text-size-adjust:100%; }
 .header{
 	grid-column: span 12;
 	display: flex;
+	width: 160%;
+	height: 160%;
+	margin-left: -60px;
 }
+.logo{
+opacity: 1;
+	}
 
 #intro{
 	padding: 5%;
@@ -633,7 +639,7 @@ h2{
 	height: 25px;
 /*	background-color: #e32526;*/
 	background-color: #9ec231;
-	margin-top: 45px;
+	margin-top: 25px;
 	z-index: -5;
 }
     .underlineBis{
@@ -651,7 +657,7 @@ h2{
 	height: 25px;
 	background-color: #e32526;
 	margin-top: -20px;
-    margin-left:10px;
+    margin-left:0px;
 	z-index: -5;
 }
 
@@ -756,8 +762,8 @@ h2{
 	font-size: 23px;
 	line-height: 220%;
 	text-align: center;
-	color: #fff;
-	margin-left:10%;
+	color: #e32526;
+	margin-left:13%;
 	
 }
 
