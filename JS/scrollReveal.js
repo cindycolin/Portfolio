@@ -1,6 +1,6 @@
 
 //tuto https://www.youtube.com/watch?v=6hUwLNz4H0M
-//document.addEventListener("DOMContentLoaded", function () {})
+document.addEventListener("DOMContentLoaded", function () {
   window.sr = ScrollReveal();
 
 sr.reveal('h2', {
@@ -105,7 +105,7 @@ sr.reveal('.underline4', {
 	delay: 350,
 	mobile: true
 });  
-
+})
 
 //tuto https://www.youtube.com/watch?v=6hUwLNz4H0M
 
