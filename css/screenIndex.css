@@ -501,9 +501,6 @@ body{ -webkit-text-size-adjust:100%; }
 	width: 15%;	
 }
 
-	
-
-	
 .wrapper{
 	width: auto;
 	grid-template-columns: auto;
@@ -530,11 +527,7 @@ body{ -webkit-text-size-adjust:100%; }
 		 			"r"
 					"s"
 					"t";
-	
-	
 }
-
-	
 
 	.header{
 		grid-area: a;
@@ -608,13 +601,6 @@ h2{
 	font-size: 46.8px;
 }
 		
-	
-		
-
-	
-		
-
-	
 .underline{
 	position: absolute;
 	width: 350px;
@@ -635,10 +621,7 @@ h2{
 	margin-top: 45px;
 	z-index: -5;
 }
-    
-
-
-.underlineBis{
+    .underlineBis{
 	position: absolute;
 	width: 300px;
 	height: 25px;
@@ -763,10 +746,8 @@ h2{
 	
 }
 
-/*
 	#container, .slide{
 		display: none;
 	}
-*/
 }
 
