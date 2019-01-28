@@ -30,10 +30,18 @@ html {
 /*	color:#e73082;*/
 	background-color: #262626;
    /*background-color: #fff;*/
+    overflow-x: hidden;  !important
 }
+/*
+body{
+    overflow-x: hidden;  !important
+}
+*/
+/*
 html.at-loaded, html.at-loaded * {
     cursor: none !important;
 }
+*/
 body{
 	cursor: url(../assets/rondRouge.png), pointer;
 }
@@ -49,6 +57,7 @@ a:link{
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: 15vh 85vh 100vh 100vh 100vh 100vh 100px 590px 60px 390px 60px 90vh 10vh ;
+    overflow-x: hidden; !important
 }
 /*<!--1er rang	g-->*/
 .header{
@@ -646,7 +655,7 @@ h2{
 	height: 25px;
 	background-color: #e32526;
 	margin-top: -70px;
-	margin-left: 50px;
+	margin-left: 20px;
 	z-index: -5;
 }
 .underline3{
@@ -655,7 +664,7 @@ h2{
 	height: 25px;
 	background-color: #e32526;
 	margin-top: -20px;
-	margin-left: 50px;
+	margin-left: 20px;
 	z-index: -5;
 }
 .underline4{

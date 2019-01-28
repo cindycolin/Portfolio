@@ -1,6 +1,7 @@
-//tuto https://www.youtube.com/watch?v=6hUwLNz4H0M
 
-window.sr = ScrollReveal();
+//tuto https://www.youtube.com/watch?v=6hUwLNz4H0M
+//document.addEventListener("DOMContentLoaded", function () {})
+  window.sr = ScrollReveal();
 
 sr.reveal('h2', {
 	origin: 'right',
@@ -103,7 +104,12 @@ sr.reveal('.underline4', {
 	reset: true,
 	delay: 350,
 	mobile: true
-});
+});  
+
+
+//tuto https://www.youtube.com/watch?v=6hUwLNz4H0M
+
+
 //sr.reveal('#section5',{
 //	origin: 'top',
 //	distance: '30px',

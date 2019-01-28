@@ -1,4 +1,5 @@
-$("#container").mousemove(function(e) {
+$(document).ready(function(){
+  $("#container").mousemove(function(e) {
   parallaxIt(e, ".slide", -400);
   parallaxIt(e, ".name", -400);
   parallaxIt(e, ".name2", 500);
@@ -13,5 +14,8 @@ function parallaxIt(e, target, movement) {
     x: (relX - $this.width() / 3) / $this.width() * movement,
     y: (relY - $this.height() / 4) / $this.height() * movement
   });
-}
+}  
+})
+
+
 
