@@ -96,10 +96,8 @@ a:link{
 	height: auto;
 }
 	
-
 .name2{
 	width: 40%;
-    
 }
 
 .hamburger img{
@@ -135,7 +133,7 @@ a:link{
 	color: #2eb5c6;
 	opacity: 1;
 	writing-mode: vertical-rl;
-	margin-top: 70px;
+	margin-top: 80px;
 	margin-right: 570px;
 	margin-left: -60px;
     
@@ -538,7 +536,7 @@ opacity: 1;
 .wrapper{
 	width: auto;
 	grid-template-columns: auto;
-	grid-template-rows: 50px 350px 300px 160px 260px 130px 360px 160px 400px 350px 260px 150px auto 150px auto 200px 50px 100px;
+	grid-template-rows: 50px 350px 300px 160px 260px 130px 360px 160px 400px 250px 260px 150px auto 150px auto 200px 50px 300px 20px;
 /*
     overflow-x: hidden !important;
     overflow-y: hidden !important;
@@ -564,7 +562,7 @@ opacity: 1;
 					"q"
 		 			"r"
 					"s"
-					"t";
+					;
 }
 
 	.header{
@@ -620,14 +618,14 @@ opacity: 1;
 		grid-area: p;
 	}
 	#section6a{
-		grid-area: r;
+		grid-area: q;
 	}
 	#section6{
-		grid-area: s;
+		grid-area: r;
 		
 	}
 	#section7{
-		grid-area: t;
+		grid-area: s;
 	}
 	
 		
@@ -767,8 +765,8 @@ h2{
     
 }
 museeTitre{
-/*    grid-column: span 1;*/
-    grid-template-columns: auto;
+    grid-column: span ;
+/*    grid-template-columns: auto;*/
 }
 	
 	
@@ -781,7 +779,8 @@ museeTitre{
 }
 #section6{
 	text-align: center;
-	font-size: 25px;
+	font-size: 22px;
+    margin-left: 10%;
 	
 }
 	
