@@ -56,9 +56,9 @@ a:link{
 /*    height: 100vh;*/
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 15vh 85vh 100vh 100vh 100vh 100vh 100px 590px 60px 390px 60px 90vh 10vh ;
-    overflow-x: hidden; !important
-    overflow-y: hidden; !important
+	grid-template-rows: 15vh 85vh 100vh 100vh 100vh 100vh 100px 590px 60px 490px 80px 99vh 1vh  ;
+    overflow-x: hidden ;!important
+    overflow-y: hidden ;!important
 }
 /*<!--1er rang	g-->*/
 .header{
@@ -356,15 +356,28 @@ visibility: hidden;
 	justify-content: center;
 }
 
-.gallerie, .gallerie2{
+.gallerie,.gallerie2{
 	position: relative;
 	display: flex;
 	grid-column: span 12;
 	justify-content:center;
     align-items: center;
 	overflow: hidden;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
+
+/*
+.gallerie2{
+    position: relative;
+	display: flex;
+    flex-direction: column;
+	grid-column: span 12;
+	justify-content:center;
+    align-items: center;
+	overflow: hidden;
+    margin-bottom: 30px; 
+}
+*/
 
 #g1, #g2, #g3{
 	width: 300px;
@@ -397,6 +410,10 @@ visibility: hidden;
 	font-size: 1.5em;
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    
 }
 .museeTitre a{
    padding-left: 690px;
@@ -521,7 +538,11 @@ opacity: 1;
 .wrapper{
 	width: auto;
 	grid-template-columns: auto;
-	grid-template-rows: 50px 350px 300px 160px 260px 130px 360px 160px 400px 320px 260px 110px auto 70px auto 80px 50px 200px;
+	grid-template-rows: 50px 350px 300px 160px 260px 130px 360px 160px 400px 350px 260px 150px auto 150px auto 200px 50px 100px;
+/*
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+*/
 
 	grid-template-areas: 
                     "a"   
@@ -590,6 +611,7 @@ opacity: 1;
 	}
 	.mt1{
 		grid-area: n;
+    
 	}
 	#gallerie2{
 		grid-area: o;
@@ -740,7 +762,14 @@ h2{
 .museeTitre p{
 	font-size: 1em;
 	text-align: center;
-}	
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+museeTitre{
+/*    grid-column: span 1;*/
+    grid-template-columns: auto;
+}
 	
 	
 	
