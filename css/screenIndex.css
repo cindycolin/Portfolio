@@ -536,7 +536,7 @@ opacity: 1;
 .wrapper{
 	width: auto;
 	grid-template-columns: auto;
-	grid-template-rows: 50px 350px 300px 160px 260px 130px 360px 160px 400px 250px 260px 150px auto 150px auto 200px 50px 300px 20px;
+	grid-template-rows: 50px 350px 300px 160px 260px 130px 360px 160px 400px 300px 260px 150px auto 180px auto 300px 100px 550px 20px;
 /*
     overflow-x: hidden !important;
     overflow-y: hidden !important;
@@ -760,12 +760,19 @@ h2{
 .museeTitre p{
 	font-size: 1em;
 	text-align: center;
+/*
+    font-size: 1.1em;
+    line-height: 1.2;
+*/
+    margin-right: 20px;
+/*
     margin-left: 0;
-    margin-right: 0;
+*/
     
 }
-museeTitre{
-    grid-column: span ;
+.museeTitre{
+    width: 275px;
+    align-items: center;
 /*    grid-template-columns: auto;*/
 }
 	

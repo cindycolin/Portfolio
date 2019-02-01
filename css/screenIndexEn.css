@@ -406,7 +406,7 @@ visibility: hidden;
 }
 .museeTitre{
 	display: flex;
-	grid-column: span 12;
+    grid-column: span 12;
 	justify-content: center;
 	
 }
@@ -533,7 +533,7 @@ opacity: 1;
 .wrapper{
 	width: auto;
 	grid-template-columns: auto;
-	grid-template-rows:  50px 350px 300px 160px 260px 130px 360px 160px 400px 300px 260px 150px auto 150px auto 200px 50px 100px;
+	grid-template-rows:  50px 350px 300px 160px 260px 130px 360px 160px 400px 300px 260px 150px auto 180px auto 300px 100px 550px 20px;
 /*
     overflow-x: hidden !important;
     overflow-y: hidden !important;
@@ -614,14 +614,14 @@ opacity: 1;
 		grid-area: p;
 	}
 	#section6a{
-		grid-area: r;
+		grid-area: q;
 	}
 	#section6{
-		grid-area: s;
+		grid-area: r;
 		
 	}
 	#section7{
-		grid-area: t;
+		grid-area: s;
 	}
 		
 #intro a{
@@ -755,13 +755,18 @@ h2{
 .museeTitre p{
 	font-size: 1em;
 	text-align: center;
-    margin-left: 0;
-    margin-right: 0;
     
+    margin-right: 20px;
+/*
+    margin-left: 0;
+    
+*/
 }	
-museeTitre{
+.museeTitre{
 /*    grid-column: span 1;*/
-    grid-template-columns: auto;
+    width: 275px;
+    align-items: center;
+    
 }	
 	
 	
