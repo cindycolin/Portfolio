@@ -149,7 +149,11 @@ a:link{
 	opacity: 1;
 	writing-mode: vertical-rl;
 	margin-top: 70px;
+<<<<<<< HEAD
 	margin-right: 590px; 
+=======
+	margin-right: 590px;
+>>>>>>> 9edf8bf27cc2b3dc92726d21c26a384402410be2
 	margin-left: -50px;
     
 }
