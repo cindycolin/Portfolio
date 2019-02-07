@@ -54,6 +54,10 @@ body{
 	
 }
 
+h1{
+    display:none;
+}
+
 a:link{
 	cursor: url(../assets/rondOrange.png), pointer;
 }
@@ -145,7 +149,7 @@ a:link{
 	opacity: 1;
 	writing-mode: vertical-rl;
 	margin-top: 70px;
-	margin-right: 590px; !important
+	margin-right: 590px; 
 	margin-left: -50px;
     
 }
@@ -647,11 +651,11 @@ h2{
 }
 .underline3a{
 	position: absolute;
-	width: 350px;
+	width: 360px;
 	height: 25px;
 /*	background-color: #e32526;*/
 	background-color: #9ec231;
-	margin-top: 25px;
+	margin-top: -20px;
 	z-index: -5;
 }
     .underlineBis{
@@ -665,11 +669,11 @@ h2{
 
 .underline2{
 	position: absolute;
-	width: 350px;
+	width: 250px;
 	height: 25px;
 	background-color: #e32526;
 	margin-top: -20px;
-    margin-left:0px;
+    margin-left: -50px;
 	z-index: -5;
 }
 
@@ -774,7 +778,7 @@ h2{
 	width: 290px;
 	height: 175px;
 	border: 1px solid red;
-	margin: 2%;
+	margin: 6%;
 }
 #section6{
 	text-align: center;
@@ -795,7 +799,9 @@ h2{
     height: auto;
 	padding: 0px;
 }
-
+#g4 > a {
+		display: none;
+	}
 	#container, .slide{
 		display: none;
 	}
