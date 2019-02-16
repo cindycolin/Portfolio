@@ -50,8 +50,6 @@ h1{
     display:none;
 }
 
-
-
 a:link{
 	cursor: url(../assets/rondJaune.png), pointer;
 }
@@ -71,10 +69,7 @@ a:link{
 .header{
 	grid-column: span 6;
 	display: flex;
-	justify-content: space-between;
 }
-
-
 
 .logo{
 	display: block;
@@ -95,11 +90,8 @@ a:link{
 	display: flex;
 	justify-content: flex-end;
 }
-
-
 	
 .menu, .content{
-	width: 100%;
 	grid-column: span 6;
 	font-size: 40px;
     display: flex;
@@ -526,16 +518,7 @@ body{ -webkit-text-size-adjust:100%; }
 .hamburger{
 		display: none;
 	}
-/*------------------------------------hamburger*/
- .header button {
-                align-self: flex-start;
-                padding: 10px;
-                background-color: pink;
-                border: 3px solid #fff;
-                border-radius: 5px;
-	 position: sticky;
-}
-	
+	    
 .header{
 	grid-column: span 12;
 	display: flex;

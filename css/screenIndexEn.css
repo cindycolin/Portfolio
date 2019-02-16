@@ -76,6 +76,17 @@ a:link{
 .header{
 	grid-column: span 6;
 	display: flex;
+	justify-content: space-between;
+}
+
+ .header button {
+                align-self: flex-start;
+                padding: 10px;
+                background-color: transparent;
+/*
+                border: 3px solid #000;
+                border-radius: 5px; 
+*/
 }
 
 .logo{

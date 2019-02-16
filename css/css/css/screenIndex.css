@@ -45,13 +45,6 @@ html.at-loaded, html.at-loaded * {
 body{
 	cursor: url(../assets/rondRouge.png), pointer;
 }
-
-h1{
-    display:none;
-}
-
-
-
 a:link{
 	cursor: url(../assets/rondJaune.png), pointer;
 }
@@ -71,10 +64,7 @@ a:link{
 .header{
 	grid-column: span 6;
 	display: flex;
-	justify-content: space-between;
 }
-
-
 
 .logo{
 	display: block;
@@ -95,11 +85,8 @@ a:link{
 	display: flex;
 	justify-content: flex-end;
 }
-
-
 	
 .menu, .content{
-	width: 100%;
 	grid-column: span 6;
 	font-size: 40px;
     display: flex;
@@ -526,16 +513,7 @@ body{ -webkit-text-size-adjust:100%; }
 .hamburger{
 		display: none;
 	}
-/*------------------------------------hamburger*/
- .header button {
-                align-self: flex-start;
-                padding: 10px;
-                background-color: pink;
-                border: 3px solid #fff;
-                border-radius: 5px;
-	 position: sticky;
-}
-	
+	    
 .header{
 	grid-column: span 12;
 	display: flex;
@@ -558,7 +536,7 @@ opacity: 1;
 .wrapper{
 	width: auto;
 	grid-template-columns: auto;
-	grid-template-rows: 50px 350px 300px 160px 260px 130px 360px 160px 400px 300px 260px 150px auto 180px auto 300px 100px 400px 20px;
+	grid-template-rows: 50px 350px 300px 160px 260px 130px 360px 160px 400px 300px 260px 150px auto 180px auto 300px 100px 550px 20px;
 /*
     overflow-x: hidden !important;
     overflow-y: hidden !important;
@@ -804,11 +782,9 @@ h2{
 	width: 290px;
 	height: 175px;
 	border: 1px solid red;
-	margin: 6%;
+	margin: 2%;
 }
 #section6{
-	display: flex;
-	flex-direction: column;
 	text-align: center;
 	font-size: 22px;
     margin-left: 10%;
@@ -817,7 +793,7 @@ h2{
 	
 #section6 a{
 	font-size: 22px;
-	line-height: 200%;
+	line-height: 220%;
 	text-align: center;
 	color: #fff;
 	margin-left: 10%;
@@ -828,9 +804,7 @@ h2{
     height: auto;
 	padding: 0px;
 }
-#g4 > a {
-		display: none;
-	}
+
 
 	#container, .slide{
 		display: none;
